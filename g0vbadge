@@ -1,0 +1,601 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>g0v 成就系統</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.1/js/bootstrap.bundle.min.js" integrity="sha512-1TK4hjCY5+E9H3r5+05bEGbKGyK506WaDPfPe1s/ihwRjr6OtL43zJLzOFQ+/zciONEd+sp7LwrfOCnyukPSsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.1/css/bootstrap.css">
+<script type="text/javascript">
+</script>
+</head>
+<body class="">
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">g0v 成就系統</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a href="/" class="nav-link">回首頁</a>
+            </li>
+                        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                登入 
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                    <a href="/_/user/slacklogin" class="dropdown-item">Slack 登入</a>
+                    </li>
+                    <li>
+                    <a href="/_/user/googlelogin" class="dropdown-item">Google 登入</a>
+                    </li>
+                    <li>
+                    <a href="/_/user/githublogin" class="dropdown-item">Github 登入</a>
+                    </li>
+                </ul>
+            </li>
+                    </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+<h3>最新使用者</h3>
+<div class="row">
+<div class="card col-2">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/a-/ACNPEu-mxTQNeucQvzNxbzCwQdR8pgE8M9gD_H0NT_R-ZLA=s1000" width="260" height="260">
+        <div class="card-body">
+        <a href="/allenlinli">
+            <h3 class="card-title">allenlinli</h3>
+            <p>@allenlinli</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2019-05-27/648885112166_55ea2ea7222913b4deeb_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/yitzu">
+            <h3 class="card-title">yitzu</h3>
+            <p>@yitzu</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/ef8017874718d997b550aa199dec12e2.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/irvin">
+            <h3 class="card-title">irvin</h3>
+            <p>@irvin</p>
+        </a>
+        <p>mozilla, 摩茲工寮, womany</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.githubusercontent.com/u/2658643?v=4" width="260" height="260">
+        <div class="card-body">
+        <a href="/chenyoyo">
+            <h3 class="card-title">chenyoyo</h3>
+            <p>@chenyoyo</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.githubusercontent.com/u/5138409?v=4" width="260" height="260">
+        <div class="card-body">
+        <a href="/seadog007">
+            <h3 class="card-title">seadog007</h3>
+            <p>@seadog007</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2020-04-30/1089445959446_6c9080e6d3ae57c7b301_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/au">
+            <h3 class="card-title">au</h3>
+            <p>@au</p>
+        </a>
+        <p>嗨咖 ++ 馬達</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2022-10-22/4254528473206_d0198edc1c553668d71d_512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/lovekangaroo0126">
+            <h3 class="card-title">lovekangaroo0126</h3>
+            <p>@lovekangaroo0126</p>
+        </a>
+        <p>#熱愛教育 #心理學與設計生涯 #自主學習</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2021-08-30/2427321825046_c70bed627d4c9a34ef19_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/peace">
+            <h3 class="card-title">peace</h3>
+            <p>@peace</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/a-/ACNPEu8QIsInpRYDgIrhxoK9MvWjthnNlga17tVwkf33Ww8=s1000" width="260" height="260">
+        <div class="card-body">
+        <a href="/ipa">
+            <h3 class="card-title">ipa</h3>
+            <p>@ipa</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <div class="card-body">
+        <a href="/clkao">
+            <h3 class="card-title">clkao</h3>
+            <p>@clkao</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.githubusercontent.com/u/43583?v=4" width="260" height="260">
+        <div class="card-body">
+        <a href="/pofeng240">
+            <h3 class="card-title">pofeng</h3>
+            <p>@pofeng240</p>
+        </a>
+        <p>OCF Nerd Pediatrician</p>
+        <p>a pediatrician who loves to promote open source in his spare time</p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2022-02-02/3037291889766_d3245d7a8e7ad5986c5f_512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/rrt467778-%E8%8F%98%E8%8F%98">
+            <h3 class="card-title">菘菘 (SiongSng)</h3>
+            <p>@rrt467778-菘菘</p>
+        </a>
+        <p>教育、開源、社群</p>
+        <p>嗨~~很高興認識你，我是個來自台灣的國中生，喜歡寫程式、關注教育議題、剪輯影片、研究麥塊、學習知識，熱愛開源精神。
+
+Lipoic 教育平台共同創辦人https://lipoic.org
+RPMTW 維護者/創辦人 https://rpmtw.com
+
+我的 Github: https://github.com/Lipoic</p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.githubusercontent.com/u/748808?v=4" width="260" height="260">
+        <div class="card-body">
+        <a href="/gasolin">
+            <h3 class="card-title">gasolin</h3>
+            <p>@gasolin</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2022-02-07/3087736489312_8f25659effcaae312426_512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/tmonk">
+            <h3 class="card-title">tmonk</h3>
+            <p>@tmonk</p>
+        </a>
+        <p>直播、後端、減肥</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2022-06-01/3606338022338_2cec1b527aa8624e97ad_512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/%E8%B1%86%E8%85%90+%28Terry%29">
+            <h3 class="card-title">豆腐 (Terry)</h3>
+            <p>@豆腐 (Terry)</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2021-05-17/2075931094596_407951d303ff36ab119f_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/kevinliao">
+            <h3 class="card-title">kevinliao</h3>
+            <p>@kevinliao</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/930363113625f5b1738e9877a3bbf76b.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/yukai">
+            <h3 class="card-title">yukai</h3>
+            <p>@yukai</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2019-04-01/586566184577_68b4c7d144259d21c8c6_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/tumi729">
+            <h3 class="card-title">tumi729</h3>
+            <p>@tumi729</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2020-03-14/1000160774224_06471d01ec9007e13175_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/seangau">
+            <h3 class="card-title">seangau</h3>
+            <p>@seangau</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/ff8938a33e3709b362562afdd0f3bbf7.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/ronnywang">
+            <h3 class="card-title">ronnywang</h3>
+            <p>@ronnywang</p>
+        </a>
+        <p>全端工程師 開放資料 揪松</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.githubusercontent.com/u/17798068?v=4" width="260" height="260">
+        <div class="card-body">
+        <a href="/%E4%BB%94%E9%AD%9A+ky">
+            <h3 class="card-title">仔魚 ky</h3>
+            <p>@仔魚 ky</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2017-09-24/246683221190_3cb15f98734339780c22_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/%E4%BB%94%E9%AD%9A">
+            <h3 class="card-title">仔魚 ky</h3>
+            <p>@仔魚</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/a-/ACNPEu_bolb3i6vWw_-enyvANUHpwLRiSD2Qs9UtySu-TQ=s1000" width="260" height="260">
+        <div class="card-body">
+        <a href="/billy3321">
+            <h3 class="card-title">billy3321</h3>
+            <p>@billy3321</p>
+        </a>
+        <p></p>
+        <p>自由軟體工作者、公民記者</p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/b3ecf4287d58054135af5d7b4d741021.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/rschiang">
+            <h3 class="card-title">rschiang</h3>
+            <p>@rschiang</p>
+        </a>
+        <p>翻譯、法律、Pythonista</p>
+        <p>[哈囉](https://poren.tw)。
+
+&lt;script&gt;alert(document.title);&lt;/script&gt;</p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/a-/ACNPEu8c7vtZMIoOevy_1QO3TWyEfAQbLBx-UZevuKMy=s1000" width="260" height="260">
+        <div class="card-body">
+        <a href="/%E5%B0%8F%E8%9F%B9%E6%9D%8E">
+            <h3 class="card-title">小蟹</h3>
+            <p>@小蟹李</p>
+        </a>
+        <p>阿美語萌典，網站工程師，女人迷</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2019-07-07/686892125637_5b5b38312ca2692cd09f_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/chiehg0v+ichieh">
+            <h3 class="card-title">chiehg0v ichieh</h3>
+            <p>@chiehg0v ichieh</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.githubusercontent.com/u/3444618?v=4" width="260" height="260">
+        <div class="card-body">
+        <a href="/chriswu">
+            <h3 class="card-title">chriswu</h3>
+            <p>@chriswu</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/a-/ACNPEu_XS0y4Luv9-SBJy8ImxUF_h2wKZJddHkfcWS7tBQ=s1000" width="260" height="260">
+        <div class="card-body">
+        <a href="/tonyqwang">
+            <h3 class="card-title">tonyqwang</h3>
+            <p>@tonyqwang</p>
+        </a>
+        <p>TonyQ,王景弘,全端工程師</p>
+        <p>Hi, I am TonyQ.</p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2021-08-02/2335173215251_9cf9adc6273daf87671f_512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/analeigh.jothon">
+            <h3 class="card-title">analeigh</h3>
+            <p>@analeigh.jothon</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2020-02-17/943445839411_d956f73ec1987ecb24d9_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/ddio">
+            <h3 class="card-title">ddio</h3>
+            <p>@ddio</p>
+        </a>
+        <p>主婦 Rentea 讓租屋也能長長久久</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/a-/ACNPEu_qa9jBfS1qpwsLNRTLCEoKm3hOa8lA5zqsRBeQcQ=s1000" width="260" height="260">
+        <div class="card-body">
+        <a href="/%E5%B4%94%E5%AE%B6%E7%91%8B">
+            <h3 class="card-title">Peter</h3>
+            <p>@崔家瑋</p>
+        </a>
+        <p>vTaiwan Law Translation</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/1808aeeb14b44329f6125f308ddfa2a1.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/stimimchen">
+            <h3 class="card-title">stimim</h3>
+            <p>@stimimchen</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://lh3.googleusercontent.com/a/default-user=s1000" width="260" height="260">
+        <div class="card-body">
+        <a href="/hsin-chanchien">
+            <h3 class="card-title">hsin-chanchien</h3>
+            <p>@hsin-chanchien</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2022-08-10/3914722401894_6d57c5270addb7fd1c16_512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/ted-haotian">
+            <h3 class="card-title">Ted 顥天</h3>
+            <p>@ted-haotian</p>
+        </a>
+        <p>國中生、開放教育、資料科學</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2021-02-23/1780524625733_f14198737b8c77455528_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/guo-jim">
+            <h3 class="card-title">guo-jim</h3>
+            <p>@guo-jim</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2020-04-30/1120561761024_d9162ee8b4208cb36904_512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/mrorz">
+            <h3 class="card-title">mrorz</h3>
+            <p>@mrorz</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/90e6857ae4cd92fcd6edcfa9f589bdaa.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/yhsiang">
+            <h3 class="card-title">yhsiang</h3>
+            <p>@yhsiang</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2017-04-27/175612513381_198a1bd63461f8476e5c_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/acechen">
+            <h3 class="card-title">acechen</h3>
+            <p>@acechen</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/1d2a6e1d1eee8b2f2a5272fffceac978.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/borishuang813">
+            <h3 class="card-title">Dabo</h3>
+            <p>@borishuang813</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2020-07-29/1268764655090_26f5c50839ca93a3714b_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/yiting.lin">
+            <h3 class="card-title">Tiff</h3>
+            <p>@yiting.lin</p>
+        </a>
+        <p>#零時小學校 #島島阿學 #教育工作者</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://secure.gravatar.com/avatar/28515c27b259ed3ea2a36f465d144750.jpg?s=512&amp;d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-512.png" width="260" height="260">
+        <div class="card-body">
+        <a href="/mglee">
+            <h3 class="card-title">mglee</h3>
+            <p>@mglee</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2021-06-26/2237223355296_c8523996184a9dcc33e9_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/isabelhou">
+            <h3 class="card-title">isabelhou</h3>
+            <p>@isabelhou</p>
+        </a>
+        <p>jothon sch001 lawyer</p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <div class="card-body">
+        <a href="/tkirby">
+            <h3 class="card-title">tkirby</h3>
+            <p>@tkirby</p>
+        </a>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+<div class="card col-2">
+        <img class="card-img-top" src="https://avatars.slack-edge.com/2017-02-27/146850595666_a29b5539ca3df546acb2_512.jpg" width="260" height="260">
+        <div class="card-body">
+        <a href="/chewei">
+            <h3 class="card-title">chewei</h3>
+            <p>@chewei</p>
+        </a>
+        <p>txt, 公有地, 揪松團志工</p>
+        <p>https://airtable.com/shrMOZctG2ZVIZeqI</p>
+    </div>
+</div>
+</div>
+
+<form method="post" id="post-form">
+    <input type="hidden" name="sToken" value="" id="post-form-stoken">
+</form>
+
+<script type="text/javascript"><!--
+$(function(){
+    $('body').on('submit', '.ajax-form', function(e){
+        e.preventDefault();
+        var formdata = new FormData(this);
+
+        $.ajax({
+            url: $(this).attr('action'),
+            type: $(this).attr('method'),
+            data: formdata,
+            processData: false,
+            contentType: false,
+            success: function(ret){
+                if (ret.error) {
+                    alert(ret.message);
+                    return;
+                }
+                document.location = document.location;
+            }
+        });
+    });
+
+    $('body').on('click', '.post-link', function(e){
+        e.preventDefault();
+
+        if ($(this).is('.confirm')) {
+            if (!confirm($(this).attr('data-confirm'))) {
+                return;
+            }
+        }
+
+        var url;
+        if ($(this).attr('href')) {
+            url = $(this).attr('href');
+        } else if ($(this).attr('data-link')) {
+            url = $(this).attr('data-link');
+        }
+
+        if ($(this).attr('data-success-url')) {
+            var done_url = $(this).attr('data-success-url');
+            $.ajax({
+                url: url,
+                type: $(this).attr('data-method') || 'post',
+                processData: false,
+                contentType: false,
+                data: new FormData($('#post-form')[0]),
+                success: function(ret){
+                    if (ret.error) {
+                        alert(ret.message);
+                        return;
+                    }
+                    document.location = done_url;
+                }
+            });
+            return;
+        }
+
+        $('#post-form').attr('action', url).submit();
+    });
+});
+//--></script>
+
+</div><!-- .container -->
+
+
+</body><div id="vimeo-record-extension"></div></html>
