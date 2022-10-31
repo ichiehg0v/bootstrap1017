@@ -533,7 +533,7 @@ RPMTW 維護者/創辦人 https://rpmtw.com
     <input type="hidden" name="sToken" value="" id="post-form-stoken">
 </form>
 
-<script type="text/javascript"><!--
+<script type="text/javascript">!--
 $(function(){
     $('body').on('submit', '.ajax-form', function(e){
         e.preventDefault();
