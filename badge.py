@@ -11,3 +11,7 @@ plist=data["services"]
 #可以印出特定位置資料 例如這邊只印有哪些服務的區塊 print(plist)
 for person in plist:
     print(person["service"])
+
+with open("dataservices.txt","w",encoding="utf-8") as file: # 打開一個新檔案，w 代表寫入, 資料有中文
+    for person in plist: #抓公司資料
+        file.write(person["service"]+"\n") #寫入檔案變成一個 txt 檔案
