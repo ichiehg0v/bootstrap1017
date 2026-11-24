@@ -1,6 +1,4 @@
-#MACOS 要 ssl 過認證一定要寫的
 import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
 
 import urllib.request as req
 url="https://www.ptt.cc/bbs/Gossiping/index.html"
@@ -10,7 +8,7 @@ request=req.Request(url,headers={
     "user-agent": "Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1"
 })
 
-with req.urlopen(request) as response:
+with req.urlopen(request, context=ssl.create_default_context(), timeout=15) as response:
     data=response.read() .decode("utf-8")
 print(data)
 

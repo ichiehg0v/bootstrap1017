@@ -1,10 +1,9 @@
 # 網路連線
 import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
 import urllib.request as request
 import json
 src="https://badge.g0v.tw/_/user/api/ronnywang"
-with request.urlopen(src) as response:
+with request.urlopen(src, context=ssl.create_default_context(), timeout=15) as response:
     data=json.load(response) #利用json模組讀取資料
 # 可以印出所有資料打 print(data)
 plist=data["services"]
